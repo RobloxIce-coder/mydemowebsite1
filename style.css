@@ -1,0 +1,30 @@
+.teks {
+  color: yellow;
+}
+#tombol:hover {
+  background-color: blue;
+  color: white;
+  box-shadow: 0px 10px 50px rgba(255,255,0,0.7);
+  animation: pindah 5s ease-in-out 0s 3 normal;
+  animation-play-state: paused;
+}
+
+@keyframes pindah {
+  5% {
+    transform: translateX(10px);
+  }
+  20% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+    font-family: fantasy;
+  }
+  90% {
+    transform: translateX(-20px);
+  }
+}
+
+#tabel {
+  border-color: fuchsia;
+}
