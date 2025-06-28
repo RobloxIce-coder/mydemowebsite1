@@ -9,11 +9,4 @@ setTimeout(() => {
 document.getElementById("tombol").addEventListener("click", function() {
   let sound = document.getElementById("sound");
   sound.play();
-
-  setTimeout(() => {
-    let bin = document.createElement("audio");
-    bin.src = "Binary.mp3";
-    bin.play();
-    document.body.appendChild(bin); // tambahkan elemen audio ke body
-  }, 10000);
 });
