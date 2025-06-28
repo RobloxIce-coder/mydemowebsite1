@@ -1,10 +1,10 @@
 var judul = document.getElementById("judul");
-judul.style.color = "maroon";
+judul.style.color = "black";
 
 setTimeout(() => {
-  judul.innerText = "Hahahaha";
-  judul.style.color = "yellow"
-}, 3000)
+  judul.innerText = "😎Mantap Mennn😎";
+  judul.style.color = "black"
+}, 10000)
 
 document.getElementById("tombol").addEventListener("click", function() {
   document.getElementById("sound").play();
