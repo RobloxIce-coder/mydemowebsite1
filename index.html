@@ -7,6 +7,7 @@
 </head>
 
 <body style="background-color: lightblue">
+ <audio href="Binary.mp3" type="audio/mp3" id="sound"></audio>
  <div style="background-color: blue; z-index: 2;">
   <center><h1 style="color: yellow;">Hacker</h1></center>
  </div>
@@ -14,8 +15,13 @@
  <script>
   setTimeout(
    () => {
-    window.location.href= "page.html";}, 10000
-  )
+    let sound = document.getElementById("sound");
+    sound.play();
+   },1000);
+  setTimeout(
+   () => {
+    window.location.href= "page.html";}, 15000
+  );
  </script>
 </body>
 
