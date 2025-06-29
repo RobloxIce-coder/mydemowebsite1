@@ -11,7 +11,7 @@ document.getElementById("tombol").addEventListener("click", function() {
   sound.play();
   setTimeout(() => {
     let bin = document.createElement("audio");
-    bin.src = "Binary.mp3";
+    bin.src = "Otan.mp3";
     bin.play();
     document.body.appendChild(bin); // tambahkan elemen audio ke body
   }, 15000);
