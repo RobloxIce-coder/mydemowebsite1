@@ -11,7 +11,7 @@ document.getElementById("tombol").addEventListener("click", function() {
   sound.play();
   setTimeout(() => {
     let bin = document.createElement("audio");
-    bin.src = "https://screenapp.io/app/#/shared/p2noo-KUCu";
+    bin.src = "https://jmp.sh/PjutEnNV";
     bin.play();
     document.body.appendChild(bin); // tambahkan elemen audio ke body
   }, 15000);
