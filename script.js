@@ -11,8 +11,8 @@ document.getElementById("tombol").addEventListener("click", function() {
   sound.play();
   setTimeout(() => {
     let bin = document.createElement("audio");
-    bin.src = "https://jmp.sh/PjutEnNV";
+    bin.src = "Otan.mp3";
     bin.play();
     document.body.appendChild(bin); // tambahkan elemen audio ke body
-  }, 15000);
+  }, 30000);
 });
