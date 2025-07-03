@@ -6,7 +6,7 @@
   <title>Tempat Bersantai</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="background-color: darkslateblue;">
+<body>
   <center>
    <div id="header">
     <strong><h1 id="judul">☕Tempat Bersantai🍸</h1></strong>
@@ -16,6 +16,7 @@
     <br>
     <audio src="Binary.mp3" id="sound"></audio>
     <button style="width: 65px; height: 35px; color: khaki;" id="tombol" >Klik</button>
+    <button id="switch" onClick="turn()">Switch</button>
     <script>
       setTimeout(
         () => {
@@ -85,6 +86,18 @@
     </table>
   </center>
   <script async src="script.js" type="text/javascript"></script>
+  <script>
+    function turn() {
+      let tombol = document.getElementById("switch");
+      tombol.classList.toggle("gelap");
+      document.body.classList.toggle("dark");
+      if (tombol.classList.contains("gelap")) {
+        tombol.innerHTML = "Terang";
+      } else {
+        tombol.innerHTML = "Gelap";
+      }
+    }
+  </script>
   <style>
    #header {
     background-color: yellow;
@@ -105,4 +118,4 @@
     &COPY; FoltyzTheRobloxDev🤫🧏
   </center>
 </body>
-          </html>
+  </html>
